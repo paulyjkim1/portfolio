@@ -1,6 +1,48 @@
 html {
-  background-color:rgb(154, 187, 206)
+  background-color:rgb(29, 29, 29);
+  /* color: rgb(225,219,209, 1); */
+  /* color: rgb(241,190,176,1) */
 }
+
+a {
+  text-decoration: none;
+  margin-top: 0px;
+}
+.nav {
+  background-color:rgb(29, 29, 29) !important;
+  display: flex;
+  flex-direction: row;
+  position:absolute;
+  width: 100vw;
+}
+
+.pkey {
+  margin: 15px;
+}
+
+.navlinkdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 10px
+}
+.navlinklab {
+  color: rgb(241,190,176,1);
+  margin: 20px 5px 0 0
+  
+}
+.navlinks {
+  color: rgb(225,219,209, 1);
+  margin: 0;
+}
+
+.links {
+  display: flex;
+}
+
+
+
+
 
 /* :root {
   --max-width: 1100px;

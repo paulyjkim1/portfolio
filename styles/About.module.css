@@ -2,5 +2,36 @@
 /* cannot do element selectors */
 
 .coolColor {
-    color:rgb(89, 88, 87)
+    color:rgb(225,219,209, 1);
+    line-height: 200%;
+    font-size: 17px;
 }
+
+.aboutPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+    text-align: center;
+    background-color: rgb(29,29,29);
+}
+.aboutContainer{
+    background-color: rgb(29,29,29);
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+.aboutHeader{
+    color: rgb(241,190,176,1);
+    font-size: 75px;
+    margin: 50px auto;
+}
+
+.aboutContent{
+    height: 50%;
+    width: 50%
+}
+
