@@ -12,8 +12,6 @@ const SpecialElite = Special_Elite({ subsets: ['latin'], weight: ['400'] })
 
 export default function Navbar() {
     return (
-        <>
-
             <nav className={`${styles.nav} ${SpecialElite.className}`}>
             
                 <Link href='/'>
@@ -54,6 +52,5 @@ export default function Navbar() {
 
                 {/* <a href="https://github.com/paulyjkim1" target='_blank'>see my github</a> */}
             </nav>
-        </>
     )
 }

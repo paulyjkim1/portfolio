@@ -29,9 +29,11 @@
   background-color:rgb(29, 29, 29) !important;
   display: flex;
   flex-direction: row;
-  position:absolute;
+  position: fixed;
   justify-content: space-between;
   width: 100vw;
+  margin-top: 0;
+  
   z-index: 2;
 }
 
@@ -39,7 +41,7 @@
 .vertnav {
   display: flex;
   flex-direction: column-reverse;
-  position:absolute;
+  position: fixed;
   background-color:rgb(29, 29, 29);
   height: 100vh;
   width: 80px;

@@ -2,19 +2,30 @@ html {
   background-color:rgb(29, 29, 29);
   /* color: rgb(225,219,209, 1); */
   /* color: rgb(241,190,176,1) */
+  
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 
-a {
+/* a {
   text-decoration: none;
   margin-top: 0px;
-}
-.nav {
+  color:rgb(225,219,209, 1)
+} */
+/* .nav {
   background-color:rgb(29, 29, 29) !important;
   display: flex;
   flex-direction: row;
   position:absolute;
   width: 100vw;
-}
+} */
 
 .pkey {
   margin: 15px;
@@ -39,6 +50,7 @@ a {
 .links {
   display: flex;
 }
+
 
 
 
